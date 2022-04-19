@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+[CREDIT]
+The practice follows the link below:
+https://www.newline.co/@schadokar/create-your-own-etherscan-with-react-in-5-minutes--4626addd
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

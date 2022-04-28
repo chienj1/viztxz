@@ -7,8 +7,15 @@ import reportWebVitals from './reportWebVitals';
 const cqtapi = process.env.REACT_APP_CQTAPI;
 const userAddr = "0xa79E63e78Eec28741e711f89A672A4C40876Ebf3";
 const apiUrl = "https://api.covalenthq.com/";
-const url = apiUrl+"v1/1/address/"+userAddr+"/transactions_v2/?key="+cqtapi;
-console.log(url);
+const chainId = "1"
+// receive userAddr's historical txs 
+const url = apiUrl+"v1/"+chainId+"/address/"+userAddr+"/transactions_v2/?key="+cqtapi;
+
+fetch(url)
+    .then(result => result.json())
+    .then((output) => {
+        console.log('Output: ', output);
+}).catch(err => console.error(err));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -18,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <div>
+          VizTxz under development by JC
+        </div>
       </header>
     </div>
   );

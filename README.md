@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+1. Please create .env file containing: REACT_APP_CQTAPI=ckey_xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+------------------------------------------------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
